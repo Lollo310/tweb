@@ -1,0 +1,59 @@
+h1, h2, h3, h4, h5, h6 {
+   color: #A4A400; 
+   background-color: #F0F0F0;
+   font-family:  'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+   text-align: left;
+   font-size: 18pt;
+   text-decoration: underline;
+   letter-spacing: 0.25em; /* Facoltativo punto numero 4 */
+   display: inline-block; /* Facoltativo punto numero 5 */
+}
+
+#titolo {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+    background-image: url("../img/Sfondo.png"); /* Facoltativo numero 1 */
+    background-repeat: repeat;                  /* Facoltativo numero 1 */
+    background-attachment: fixed;               /* Facoltativo numero 1 */
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    max-width: 1024px;
+}
+
+a {
+    color: #A4A400;
+}
+
+hr {
+    clear: right;
+}
+
+td {
+    width: 33%;
+}
+
+ul.iconlist {
+    list-style-image: url("../img/favicon.ico"); /* Facoltativo punto numero 3 */
+}
+
+#meimg {
+    width: 240px;
+    height: 240px;
+    float: right;
+}
+
+#datipersonali{
+   overflow: hidden;
+}
+
+img.validation {
+    border:0;
+    width:88px;
+    height:31px
+}

@@ -1,0 +1,130 @@
+<!--Requisiti addizionali scelti:
+    1-Inserire un'immagine di sfondo
+    2-favicon
+    3-sostituzione del tondino delle liste con immagine
+    4-spazio orizzontale tra i caratteri
+    5-sfondo delle intestazioni solo dove c'è il testo
+-->
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Profilo di Michele Lorenzo">
+        <meta name="author" content="Michele Lorenzo">
+        <meta name="keywords" content="Michele, Lorenzo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Profilo di Michele Lorenzo</title>
+        <link rel="stylesheet" href="styles/bio.css" type="text/css">
+        <link rel="icon" href="img/favicon.ico" type="image/png"> <!-- Facoltativo punto numero 2-->
+    </head>
+    <body>
+        <div id="titolo">
+            <h1>Profilo di Michele Lorenzo</h1>
+        </div>
+
+        <div id="datipersonali">
+            <div>
+                <h2>Dati personali</h2>
+            </div>
+
+            <img src="img/me.jpg" alt="Immagine profilo" id="meimg">
+            <table>
+                <tr>
+                    <td>Nome: </td> <td>Michele</td>
+                </tr>
+                <tr>
+                    <td>Cognome: </td> <td>Lorenzo</td>
+                </tr>
+                <tr>
+                    <td>Indirizzo: </td> <td>Corso Pluto, 66, Torino(TO), 10139</td>
+                </tr>
+                <tr>
+                    <td>Numero di telefono: </td> <td>+39 333 262626</td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+        <div>
+            <h2>Competenze informatiche</h2>
+
+            <table>
+                <tr>
+                    <th>Linguaggi: </th> <th>Sisyemi Operativi: </th> <th>Ambienti di sviluppo: </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul class="iconlist">
+                            <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+                            <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>C</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="iconlist">
+                            <li>Windows</li>
+                            <li>Linux</li>
+                            <li>Mac OS</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="iconlist">
+                            <li>Visual Studio Code</li>
+                            <li>IntelliJ IDEA</li>
+                            <li>Emacs</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+        <div>
+            <h2>Esperienza di lavoro</h2>
+
+            <ol>
+                <li>LSoftware: Chief Executive Officer (03/01/2021-..)</li>
+                <li>Sprint Replay: Machine Learning (01/01/2020-30/11/2020)</li>
+                <li>IMA Group: <ul>
+                    <li> Progettista software (01/01/2019-31/12/2019)</li>
+                    <li> Tirocinante (18/01/2018-18/03/2018)</li>
+                </ul></li>
+            </ol>
+            <hr>
+        </div>
+        <div>
+            <h2>Interessi personali</h2>
+            <dl>
+                <dt>Sport</dt>
+                <dd>Nel tempo libero pratico sport a corpo libero.</dd>
+                <dt>Cibo</dt>
+                <dd>Mi piace provare sempre cibi nuovi.</dd>
+                <dt>Assemblare PC</dt>
+                <dd>Per svagarmi assemblo PC.</dd>
+            </dl>
+            <hr>
+        </div>
+        <div>
+            <h2>Links</h2>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#titolo">Totna su</a></li>
+            </ul>
+            <hr>
+        </div>
+        <footer>
+            <a href="https://validator.w3.org/#validate_by_upload">
+                <img src="img/HTML5_certified.png" 
+                    alt="HTML Valido!" 
+                    class="validation">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/#validate_by_upload">
+                <img class="validation"
+                    src="img/CSS-certified.png"
+                    alt="CSS Valido!">
+            </a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,80 @@
+/*
+ * Foglio di sile.
+ * Autore: Michele Lorenzo
+ * Corso: B
+ */
+
+body {
+    background-color: #dad9d4;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+#frame {
+    margin: auto;
+    width: 90%;
+    background-color: white;
+}
+
+#main {
+    text-align: center;
+}
+
+#banner, #w3c {
+    background-image: url("../img/banner-background.png");
+    color: white;
+    padding: 1em;
+}
+
+#searchall, #searchkevin {
+    width: 24em;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+table#list {
+    border-collapse: collapse;
+}
+
+#list tr:nth-child(even){
+    background-color: #dad9d4;
+}
+
+table {
+    width: 80%;
+    margin: 1em auto;
+    border: 1px solid #dad9d4;
+}
+
+caption {
+    margin-bottom: 5px;
+}
+
+#errMsg, #flash {
+    color: red;
+    margin-top: 1em; 
+    font-weight: bold;
+}
+
+#login {
+    width: 16em;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: right;
+}
+
+#login label{
+    float: left;
+}
+
+#logout {
+    float: right;
+
+}
+
+p > #username {
+    color: orange;
+}
+
+
+

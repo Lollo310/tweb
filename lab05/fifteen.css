@@ -1,0 +1,85 @@
+/*
+ * Foglio di stile per la pagina fifteen.html.
+ * Autore: Michele Lorenzo
+ * Corso: B
+ */
+
+body {
+    font-size: 14pt;
+    font-style: italic;
+    text-align: center;
+}
+
+#puzzlearea {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#puzzlearea div {
+    background-image: url("background.jpg");
+    width: 90px;
+    height: 90px;
+    border: 5px solid black;
+    font-size: 40pt;
+    float: left;
+    position: absolute;
+}
+
+#puzzlearea .movable:hover {
+    border-color: red;
+    color: red;
+}
+
+#win {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 32pt; 
+}
+
+.panel {
+    border: 2px solid greenyellow;
+    background-color: grey;
+    padding: 15px;
+    position: absolute;
+}
+
+#score, #timer {
+    float: right;
+    left: 80%;
+    width: 100px;
+}
+
+#score {
+    top: 200px;
+}
+
+#timer {
+    top: 300px;
+}
+
+.end-timer {
+    color: red;
+}
+
+#bg-start-panel {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+#start-panel  {
+    width: 50%;
+    height: 25%;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+}
+
+#shufflebutton {
+    border: 2px solid greenyellow;
+}

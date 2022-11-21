@@ -1,0 +1,19 @@
+#ignore files for lab3 
+lab03/demos/*
+lab03/mortalkombat/*
+lab03/princessbride/*
+lab03/tmnt/*
+lab03/tmnt2/*
+lab03/lab03_php.pdf
+
+#ignore files for lab4
+lab04/*.pdf
+
+#ignore files for lab5
+lab05/*.pdf
+
+#ignore files for lab6
+lab06/*.pdf
+
+#ignore files for project
+project/progetto_finale.pdf

@@ -1,0 +1,153 @@
+/* Author:          Michele Lorenzo
+ * Course:          B
+ * Descripttion:    We want to create a style sheet for the tmnt page according to the 
+ *                  specifications provided.
+ * Content:         CSS style sheet
+ */
+
+body, 
+#overview-content ul, 
+#content-footer, 
+#content-footer > p,
+#validators-icon p,
+#validators-icon img{
+    margin: 0;
+    padding: 0;
+}
+
+#top-banner,
+#title,
+#content-footer {
+    text-align: center;
+}
+
+#overview, 
+#content-footer {
+    background-color: #A2B964;
+}
+
+body {
+    background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#top-banner {
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png");
+    height: 50px;
+}
+
+#title {
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+#title h1 {
+    font-size: 24pt;
+}
+
+#content {
+    width: 800px;
+    margin: 0 auto;
+    border: 4px solid;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#overview {
+    float: right;
+    width: 250px;
+}
+
+#overview-content {
+   padding: 10pt;
+   font-family: Arial, sans-serif;
+}
+
+#overview-content > dl > dt {
+    font-weight: bold;
+    margin-top: 10pt;
+}
+
+#overview-content ul {
+    list-style-type: none;
+}
+
+#reviews {
+    width: 550px;
+}
+
+#reviews-header {
+    overflow: hidden;
+    height: 83px;
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png");
+}
+
+#reviews-header-img {
+    float: left;
+}
+
+
+#reviews-header-percentuale {
+    font-weight: bold;
+    color: red;
+    font-size: 48pt;
+}
+
+#reviews-content-left, 
+#reviews-content-right {
+    width: 47%;
+    float: left;
+    margin: 0 2%;
+}
+
+#reviews-content-right{
+    margin-left: 0;
+}
+ 
+#reviews-content p{
+    overflow: hidden;
+}
+
+#reviews-content-left p:nth-of-type(odd), 
+#reviews-content-right p:nth-of-type(odd){
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+
+#reviews-content-left p:nth-of-type(even), 
+#reviews-content-right p:nth-of-type(even) {
+    margin-bottom: 20pt;
+}
+
+#reviews-content img{
+    margin-right: 5px;
+    float: left;
+}
+
+#reviews-content-left p:nth-of-type(even) span, 
+#reviews-content-right p:nth-of-type(even) span{
+    font-style: italic;
+}
+
+#content-footer,
+#validators-icon {
+    clear: both;
+}
+
+#content-footer {
+    padding: 5px;
+}
+
+#validators-icon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}

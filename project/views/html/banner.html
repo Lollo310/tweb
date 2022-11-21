@@ -1,0 +1,58 @@
+<!--
+  Codice HTML per la barra di navigazione.
+  author: Michele Lorenzo
+-->
+
+  <script src="http://localhost/TWeb/GitLab2/tweb/project/js/Banner.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand ms-2" href="http://localhost/TWeb/GitLab2/tweb/project/index.php">
+      <img src="http://localhost/TWeb/GitLab2/tweb/project/images/white_logo_rounded.png" alt="reBuy logo"
+        class="img-fluid w-50">
+    </a>
+
+    <div class="container-fluid" id="navComponents">
+      <ul class="navbar-nav me-3">
+        <li class="nav-item fs-2">
+          <a class="nav-link" href="#" id="shoppingCart">
+            <i class="bi bi-cart"></i>
+          </a>
+        </li>
+        
+        <li class="nav-item dropdown" id="userMenu">
+          <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">
+            <i class="bi bi-person-circle fs-2"></i> Hi <span class="text-white" id="userName"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" id="menu">
+            <li>
+              <button class="dropdown-item" id="addNewProduct">
+                <i class="bi bi-plus-circle"></i> Add new product
+              </button>
+            </li>
+
+            <li>
+              <button class="dropdown-item" id="listProducts">
+                <i class="bi bi-card-list"></i> Added products list
+              </button>
+            </li>
+
+            <li>
+              <button class="dropdown-item" id="orders">
+                <i class="bi bi-box-seam"></i> Orders
+              </button>
+            </li>
+
+            <li>
+              <button class="dropdown-item" id="logout">
+                <i class="bi bi-box-arrow-in-left"></i> Logout
+              </button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="containers">
